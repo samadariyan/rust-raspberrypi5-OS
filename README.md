@@ -147,14 +147,6 @@ The original version of the tutorials started out as a fork of [Zoltan
 Baldaszti](https://github.com/bztsrc)'s awesome [tutorials on bare metal programming on
 RPi3](https://github.com/bztsrc/raspi3-tutorial) in `C`. Thanks for giving me a head start!
 
-### Translations of this repository
-
- - **Chinese**
-   - [@colachg] and [@readlnh].
-   - Need updating.
- - **Spanish**
-   -  [@zanezhub].
-   -  In the future there'll be tutorials translated to spanish.
 
 [@colachg]: https://github.com/colachg
 [@readlnh]: https://github.com/readlnh
