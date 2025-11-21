@@ -1,1 +1,1 @@
-DOCKER_IMAGE := rustembedded/osdev-utils:2025.6.9
+DOCKER_IMAGE := rustembedded/osdev-utils:2021.12
