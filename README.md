@@ -1,10 +1,10 @@
 # Operating System development tutorials in Rust on the Raspberry Pi
 
-![](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/workflows/BSP-RPi3/badge.svg) ![](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/workflows/BSP-RPi4/badge.svg) ![](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/workflows/Unit-Tests/badge.svg) ![](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/workflows/Integration-Tests/badge.svg) ![](https://img.shields.io/badge/License-MIT%20OR%20Apache--2.0-blue)
+![BSP-RPi3](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/workflows/BSP-RPi3/badge.svg) ![BSP-RPi4](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/workflows/BSP-RPi4/badge.svg) ![Unit-Tests](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/workflows/Unit-Tests/badge.svg) ![Integration-Tests](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/workflows/Integration-Tests/badge.svg) ![License-MIT OR Apache--2.0-blue](https://img.shields.io/badge/License-MIT%20OR%20Apache--2.0-blue)
 
-<br/>
+<br>
 
-<img src="doc/header.jpg" height="372"> <img src="doc/minipush_demo_frontpage.gif" height="372">
+![header](doc/header.jpg) ![minipush_demo_frontpage](doc/minipush_demo_frontpage.gif)
 
 ## ℹ️ Introduction
 
@@ -16,11 +16,8 @@ HW exceptions. All while leveraging `Rust`'s unique features to provide for safe
 
 Have fun!
 
-_Best regards,<br>Andre ([@andre-richter])_
-
-P.S.: For other languages, please look out for alternative README files. For example,
-[`README.CN.md`](README.CN.md) or [`README.ES.md`](README.ES.md). Many thanks to our
-[translators](#translations-of-this-repository) 🙌.
+_Best regards,  
+Andre ([@andre-richter])_
 
 [ARMv8-A architecture]: https://developer.arm.com/products/architecture/cpu-architecture/a-profile/docs
 [monolithic]: https://en.wikipedia.org/wiki/Monolithic_kernel
@@ -33,7 +30,7 @@ P.S.: For other languages, please look out for alternative README files. For exa
 - Each tutorial `README` will have a short `tl;dr` section giving a brief overview of the additions,
   and show the source code `diff` to the previous tutorial, so that you can conveniently inspect the
   changes/additions.
-    - Some tutorials have a full-fledged, detailed text in addition to the `tl;dr` section. The
+  - Some tutorials have a full-fledged, detailed text in addition to the `tl;dr` section. The
       long-term plan is that all tutorials get a full text, but for now this is exclusive to
       tutorials where I think that `tl;dr` and `diff` are not enough to get the idea.
 - The code written in these tutorials supports and runs on the **Raspberry Pi 3** and the
@@ -66,11 +63,13 @@ The tutorials are primarily targeted at **Linux**-based distributions. Most stuf
 1. Prepare the `Rust` toolchain. Most of it will be handled on first use through the
    [rust-toolchain.toml](rust-toolchain.toml) file. What's left for us to do is:
    1. If you already have a version of Rust installed:
+
       ```bash
       cargo install cargo-binutils rustfilt
       ```
 
    1. If you need to install Rust from scratch:
+
       ```bash
       curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
@@ -146,11 +145,6 @@ get a USB serial cable to get the full experience.
 The original version of the tutorials started out as a fork of [Zoltan
 Baldaszti](https://github.com/bztsrc)'s awesome [tutorials on bare metal programming on
 RPi3](https://github.com/bztsrc/raspi3-tutorial) in `C`. Thanks for giving me a head start!
-
-
-[@colachg]: https://github.com/colachg
-[@readlnh]: https://github.com/readlnh
-[@zanezhub]: https://github.com/zanezhub
 
 ## License
 

@@ -39,7 +39,7 @@ pub(super) mod map {
         pub const PL011_UART_START: usize = START + UART_OFFSET;
     }
 
-    /// Phsyical devices.
+    /// Physical devices.
     #[cfg(feature = "bsp_rpi5")]
     pub mod mmio {
         // use super::*;
@@ -57,7 +57,6 @@ pub(super) mod map {
         pub const PL011_EARLY_UART_START: usize = 0x107d001000;
     }
 }
-
 
 //--------------------------------------------------------------------------------------------------
 // Public Code

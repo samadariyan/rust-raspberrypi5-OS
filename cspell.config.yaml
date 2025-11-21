@@ -1,0 +1,79 @@
+version: "0.2"
+ignorePaths: []
+dictionaryDefinitions: []
+dictionaries: []
+words:
+  - automagically
+  - Baldaszti
+  - baseaddr
+  - baudrate
+  - binutils
+  - bitfields
+  - bootable
+  - CHAINBOOT
+  - chainloader
+  - CHIPCORES
+  - CHIPNAME
+  - cmsis
+  - CNTRL
+  - colachg
+  - CTIBASE
+  - CTINAME
+  - DBGBASE
+  - demangle
+  - diskutil
+  - DIVFRAC
+  - DIVINT
+  - Dockerization
+  - FBRD
+  - Fifos
+  - frontpage
+  - FSEL
+  - genrated
+  - GPFSEL
+  - GPPUD
+  - GPPUDCLK
+  - IBRD
+  - irlen
+  - jtag
+  - jtagboot
+  - lindex
+  - lldb
+  - mingo
+  - MINILOAD
+  - minipush
+  - miniterm
+  - mmio
+  - multiarch
+  - newdap
+  - NUMBITS
+  - openocd
+  - painpoint
+  - PUDCLK
+  - raspberrypi
+  - Raspberrys
+  - raspi
+  - readlnh
+  - rodata
+  - rustfilt
+  - rustup
+  - RXFE
+  - SDCARD
+  - softfloat
+  - TAPID
+  - TARGETNAME
+  - tlsv
+  - tock
+  - trejan
+  - TXFE
+  - TXFF
+  - UART
+  - UARTEN
+  - usbmodem
+  - usbserial
+  - virt
+  - WLEN
+  - zanezhub
+  - Zoltan
+ignoreWords: []
+import: []
